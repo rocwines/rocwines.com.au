@@ -1,0 +1,428 @@
+/* CSS Document */
+body {background-image:url(../images/bgrnd.gif);
+	background-repeat:repeat;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:.65em;
+	color:#66515C;
+	line-height:170%;}
+
+h1 {color:#66515C;
+	font-size:1.3em;
+	line-height:87%;	
+	font-family:Georgia, "Times New Roman", Times, serif;
+	letter-spacing:.5px;}
+
+h2 {font-size:1.1em;
+	line-height:87%;
+	font-family:Arial, Helvetica, sans-serif;
+	letter-spacing:.5px}
+
+.bold {font-weight:bold;}
+
+.italic {font-style:italic;}
+
+.italich1 {font-style:italic;
+	font-size:.9em}
+
+.indent {margin-left:115px;}
+
+.indentlrg {margin-left:215px;}
+
+.indentlcol {margin-right:10px}
+
+.center {text-align:center}
+
+.floatleft {float:left;
+	margin-top:7px;
+	position:relative;	}
+
+.floatright {float:right;
+	margin-top:7px;
+	position:relative;
+	padding: 0px 10px 15px 15px}
+
+.form{border:1px solid #66515C;
+	padding:1px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#66515c;
+	font-size:.9em;
+	background-color:#FFFFFF}
+
+#floatright {width:230px;
+	border-left:1px solid #402633;
+	float:right;
+	padding-left:10px;
+	margin-left:10px}
+
+#leftcol a {color:#FFFFFF;
+	text-decoration:underline;
+	font-weight:bold}
+
+#leftcol a:hover {color:#8c7d85;}
+
+a {text-decoration:underline;
+	font-weight:bold;
+	color:#8c7d85;}
+
+a:hover {color:#65505A;}
+
+#border {width: 760px;
+	border:3px solid #8c7d85;
+	text-align:center;
+	margin: 20px auto;}
+
+#container {position:relative;
+	background-color:#65505A;
+	border:2px solid #FFFFFF;
+	text-align:left;}
+
+#banner {}
+
+#buttons {position:relative;	
+	height:28px;
+	background-color:#402633;
+	margin-top:-41px;
+	z-index:1;
+	padding-left:129px}
+
+/* Left columns for non-button pages*/
+#leftcol {background-color:#65505A;
+	border-top:1px solid #402633;
+	position:relative;
+	float:left;
+	width: 220px;
+	margin-top:8px;
+	padding: 0px 0px 20px 20px;
+	color:#FFFFFF;}
+
+/* Left column - Title one -  non-button pages*/
+#lefttlt1 {border-top: 1px solid #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;
+	margin-left:-20px;
+	background-color:#402633;
+	width:240px}
+
+/* Left column - Title two -  non-button pages*/
+#lefttlt2 {border-top: 1px solid #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;
+	margin-left:-20px;
+	background-color:#402633;
+	width:240px}
+
+/* Left column - Title three -  non-button pages*/
+#lefttlt3 {border-top: 1px solid #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;
+	margin-left:-20px;
+	background-color:#402633;
+	width:240px}
+
+/* Left columns for button pages*/
+#leftcolsml {background-color:#65505A;
+	border-top:1px solid #402633;
+	position:relative;
+	float:left;
+	width: 180px;
+	margin-top:8px;
+	padding: 0px 0px 20px 20px;
+	color:#FFFFFF;}
+
+#leftcolsml a {color:#FFFFFF;
+	text-decoration:underline;
+	font-weight:bold}
+
+#leftcolsml a:hover {color:#8c7d85;}
+
+#leftsmltlt1 {border-top: 1px solid #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;
+	margin-left:-20px;
+	background-color:#402633;
+	width:200px;
+	height:28px;}
+
+#leftsmltlt2 {border-top: 1px solid #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;
+	margin-left:-20px;
+	background-color:#402633;
+	width:200px}
+
+#leftsmltlt3 {border-top: 1px solid #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;
+	margin-left:-20px;
+	background-color:#402633;
+	width:200px}
+
+/* Left column border for images*/	
+.lftimg {border-top: 1px solid #FFFFFF;}
+
+/* Left column border for button images*/	
+.lftimgbtn {border-bottom: 1px solid #FFFFFF;
+	margin-left:-20px;}
+
+/*Left Column Navigaton*/
+
+ ul#navlist{ text-align: left;
+ 	list-style: none;
+ 	padding: 0px;
+ 	margin-left:-20px;
+	margin-top:0px;}
+
+ ul#navlist li a{
+	display: block;
+ 	width: 180px;
+ 	padding: 5px 0px 5px 20px;
+	border-bottom:1px solid #65505A;
+ 	color: #EAE7E9;
+ 	text-decoration: none;
+ 	background: #402633;
+ 	font-weight:bold; }
+	
+  ul#navlist li#selection a{
+	display: block;
+ 	color: #402633;
+ 	background: #EAE7E9;
+	text-decoration: none;}
+
+  ul#navlist li#selectionlast a{
+	display: block;
+ 	color: #402633;
+ 	background: #EAE7E9;
+	text-decoration: none;
+	border-bottom:1px solid #FFFFFF;}
+
+ #navcontainer>ul#navlist li a { width: auto; }
+
+ ul#navlist li#second a{background: #381C2A;}
+
+ ul#navlist li#fourth a{background: #381C2A;}
+
+ ul#navlist li#sixth a{background: #381C2A;}
+
+ ul#navlist li#lastdrk a{border-bottom:1px solid #FFFFFF;
+	padding-bottom:10px;
+	background: #381C2A;}
+
+ ul#navlist li#lastlght a{border-bottom:1px solid #FFFFFF;
+	padding-bottom:10px;}
+
+ ul#navlist li a:hover, ul#navlist li#second a:hover, ul#navlist li#fourth a:hover,  ul#navlist li#sixth a:hover
+ {background: #65505a;
+	border-bottom:1px solid #402633;}
+
+ul#navlist li#lastdrk a:hover,  ul#navlist li#lastlght a:hover
+ {background: #65505a;}
+
+/* Right columns WITH HORIZONTAL PICTURE (no buttons)*/
+#rightcolhm {
+	position:relative;
+	border-top:1px solid #402633;
+	border-left:1px solid #402633;
+	margin-left:240px;
+	margin-top:8px;
+	padding: 0px 20px 140px 20px;
+	background-color:#ffffff;
+	background-image:url(../images/photos/lrghome.jpg);
+	background-repeat:no-repeat;
+	background-position:bottom;
+	left: 1px;
+}
+
+#rightcolhm td {vertical-align:top}
+
+#rightcol2 {
+	border-left:1px solid #402633;
+	margin-left:240px; 
+	padding: 20px 20px 70px 20px;
+	background-color:#EAE7E9;
+	background-image:url(../images/footerdrk.gif);
+	background-position:bottom right;
+	background-repeat:no-repeat;}
+
+/* Right column pages no footer (NO BUTTONS)*/
+#rightcolnb {position:relative;
+	border-top:1px solid #402633;
+	border-left:1px solid #402633;
+	margin-left:240px; 
+	margin-top:8px;
+	padding: 0px 20px 0px 20px;
+	background-color:#ffffff;}
+
+
+/* Right column pages with footer (NO BUTTONS)*/
+#rightcolfootnb {position:relative;
+	border-top:1px solid #402633;
+	border-left:1px solid #402633;
+	margin-left:240px; 
+	margin-top:8px;
+	padding: 0px 20px 140px 20px;
+	background-color:#ffffff;
+	background-image:url(../images/footer.gif);
+	background-repeat:no-repeat;	
+	background-position:bottom}
+
+#rightcolfootnb td {border-bottom:1px solid #65505A;
+	vertical-align:top}
+
+/* Right column pages with footer (NO BUTTONS - ORDER PAGE)*/
+#rightcolfootnborder {position:relative;
+	border-top:1px solid #402633;
+	border-left:1px solid #402633;
+	margin-left:240px; 
+	margin-top:8px;
+	padding: 0px 20px 140px 20px;
+	background-color:#ffffff;
+	background-image:url(../images/footer.gif);
+	background-repeat:no-repeat;	
+	background-position:bottom}
+
+#rightcolfootnborder td {border-top:1px solid #65505A;
+	vertical-align:top}
+
+
+/* Right columns WITH HORIZONTAL PICTURE - VISION (with buttons)*/
+#rightcolhpb {position:relative;
+	border-top:1px solid #402633;
+	border-left:1px solid #402633;
+	margin-left:200px; 
+	margin-top:8px;
+	padding: 0px 20px 140px 20px;
+	background-color:#ffffff;
+	background-image:url(../images/photos/lrgvision.jpg);
+	background-repeat:no-repeat;	
+	background-position:bottom}
+
+/* Right columns WITH HORIZONTAL PICTURE - CLARE VALLEY (with buttons)*/
+
+#rightcolhpbcl {position:relative;
+	border-top:1px solid #402633;
+	border-left:1px solid #402633;
+	margin-left:200px; 
+	margin-top:8px;
+	padding: 0px 20px 68px 20px;
+	background-color:#ffffff;
+	background-image:url(../images/footerdrk.gif);
+	background-position:bottom right;
+	background-repeat:no-repeat;}
+
+#rightcolhpb2 {position:relative;
+	margin-right:-20px;
+	margin-left:-20px; 
+	padding: 160px 20px 0px 20px;
+	background-color:#EAE7E9;
+	background-image:url(../images/photos/lrgclare.jpg);
+	background-repeat:no-repeat;	
+	background-position:top;}
+
+#rightcolhpb2 td {border-bottom:1px solid #65505A;
+	vertical-align:top}
+
+.tdbgrndhpb2 {background-color:#FFFFFF}
+
+/* Right column button pages*/
+#rightcol {position:relative;
+	border-top:1px solid #402633;
+	border-left:1px solid #402633;
+	margin-left:200px; 
+	margin-top:8px;
+	padding: 0px 20px 0px 20px;
+	background-color:#ffffff;}
+
+/* Right column button pages with footer*/
+#rightcolfoot {position:relative;
+	border-top:1px solid #402633;
+	border-left:1px solid #402633;
+	margin-left:200px; 
+	margin-top:8px;
+	padding: 0px 20px 70px 20px;
+	background-color:#ffffff;
+	background-image:url(../images/footer.gif);
+	background-position:bottom right;
+	background-repeat:no-repeat;}
+
+#rightcolfoot td {border-bottom:1px solid #65505A;
+	vertical-align:top}
+
+/* Right column button pages with footer for Integrale Page*/
+#rightcolfootint {position:relative;
+	border-top:1px solid #402633;
+	border-left:1px solid #402633;
+	margin-left:200px; 
+	margin-top:8px;
+	padding: 0px 20px 70px 20px;
+	background-color:#ffffff;
+	background-image:url(../images/footer.gif);
+	background-position:bottom right;
+	background-repeat:no-repeat;}
+
+#rightcolfootint td {border:0px;
+vertical-align:top}
+
+.tdbgrnd {background-color:#FFFFFF}
+
+.tdbgrnd1 {border-top:1px solid #65505A;
+	background-color:#EAE7E9}
+
+/* Right column, drker background button pages*/
+#rightcol2b { border-top:1px solid #65505a;
+	border-bottom:1px solid #65505A;
+	margin-left:-20px;
+	margin-right:-20px; 
+	margin-bottom:20px;
+	padding: 5px 20px 20px 20px;
+	background-color:#EAE7E9;}
+
+#rightcol2c { border-top:1px solid #65505a;
+	border-bottom:1px solid #65505A;
+	margin-left:-20px;
+	margin-right:-20px; 
+	margin-bottom:20px;
+	padding: 5px 20px 20px 20px;
+	background-color:#EAE7E9;}
+	
+#rightcol2d { border-top:1px solid #65505a;
+	border-bottom:1px solid #65505A;
+	margin-left:-20px;
+	margin-right:-20px; 
+	padding: 5px 20px 70px 20px;
+	background-color:#EAE7E9;
+	background-image:url(../images/footerdrk.gif);
+	background-position:bottom right;
+	background-repeat:no-repeat;}
+
+
+/* Right column, drker background last on button page with footer*/
+#rightcollastdrk { border-top:1px solid #65505a;
+	margin-left:-20px;
+	margin-right:-20px; 
+	padding: 5px 20px 70px 20px;
+	background-color:#EAE7E9;
+	background-image:url(../images/footerdrk.gif);
+	background-position:bottom right;
+	background-repeat:no-repeat;}
+
+/* Right column, drker background last on page with footer*/
+#tltlrg {border-bottom:1px solid #402633;
+	margin-left:-20px;
+	margin-right:-20px;
+	padding-left:20px;}
+
+/* Footer for pages without buttons*/
+#footer {background-color:#513A46;
+	border-top:1px solid #FFFFFF;
+	clear:both}
+
+#footerdrk {
+	border-left:1px solid #402633;
+	margin-left:240px; 
+	background-color:#402633;
+	padding: 0px}
+
+/* Footer for pages with buttons*/
+#footerb {background-color:#513A46;
+	border-top:1px solid #FFFFFF;
+	clear:both}
+
+#footerdrkb {
+	border-left:1px solid #402633;
+	margin-left:200px; 
+	background-color:#402633;
+	padding: 0px}
