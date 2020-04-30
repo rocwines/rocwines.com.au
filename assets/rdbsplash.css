@@ -1,0 +1,94 @@
+/* CSS Document */
+
+body {background-color:#ffffff;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:.7em;
+	color:#E5D9DE;
+	line-height:170%; 
+	background-image:url(../images/bgrnd.gif)}
+
+h1 {font-size:1.5em;
+	color:#FFFFFF;
+	padding-top:15px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	border-bottom:1px solid #8C7D85;
+	letter-spacing:.5px}
+
+h2 {font-size:1.3em;
+	color:#FFFFFF;
+	font-style:italic;
+	zzpadding-top:15px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	text-align:center;
+	letter-spacing:.5px}
+
+h3 {font-size:1.5em;
+	color:#FFFFFF;
+	padding-top:15px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	letter-spacing:.5px}
+
+.bold {font-weight:bold;	
+	color:#FFFFFF;}
+
+.italic {font-style:italic;}
+
+.indent{margin-left:-15px;
+	font-weight:bold;
+	color:#FFFFFF;}
+
+.center {text-align:center}
+
+a {color:#FFFFFF;
+	text-decoration:underline;
+	font-weight:bold}
+
+a:hover {color:#8c7d85;}
+
+#container{ width: 760px;
+	margin: 20px auto 0px auto;
+	background-color: #402633;
+	border-top: solid 1px #8c7d85;
+	border-left: solid 1px #8c7d85;
+	border-right: solid 1px #8c7d85;}
+
+#banner {border-bottom: 1px solid #FFFFFF;
+	border-left:1px solid #402633;
+	border-right:1px solid #402633;
+	border-top:1px solid #402633;
+	width: 760px;} 
+
+#leftcol {width:185px;}
+
+#content {margin-left:185px;
+	margin-top:-35px;
+	border-left:1px solid #ffffff;
+	padding-top:15px;
+	padding-right:15px;
+	padding-left:15px;
+	text-align:left;}
+
+#bullets{margin-left:15px;}
+
+#register {background-color:#4D3441;
+	zzborder:1px solid #FFFFFF;
+	zzborder:1px solid #8c7d85;
+	padding:5px;
+	margin-left:-15px;
+	margin-right:-15px;}
+	
+
+#footer {width: 760px;
+	position:relative;
+	background-color:#8c7d85;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:center;
+	border-top: 1px solid #FFFFFF;
+	border-left:1px solid #402633;
+	border-right:1px solid #402633;
+	border-bottom: 1px solid #402633;
+	height:20px;
+	margin: 0px auto;}
+
+.img {float:right;	}
+
